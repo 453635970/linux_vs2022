@@ -56,3 +56,16 @@ PasswordAuthentication no → 改为 PasswordAuthentication yes（允许密码�
 sudo service ssh restart
 # 检查状态
 sudo service ssh status
+
+
+通过绝对路径进入目录
+cd /home/user/documents
+
+进入当前目录下的子目录
+cd music
+
+返回上一级目录
+cd ..
+
+回到用户主目录
+cd ~
